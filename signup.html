@@ -32,31 +32,29 @@
             </ul>
         </nav>
     </header>
+
     <section class="form-section">
-        <form method="post" action="https://formdump.codeinstitute.net/">
-            
-            <h2>Let's get you signed up!</h2>
-            
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
             <label for="fname">First Name</label>
-            <input type="text" name="first_name" id="fname" required>
+            <input id="fname" class="text-input" name="first_name" type="text" required>
             
             <label for="lname">Last Name</label>
-            <input type="text" name="last_name" id="lname" required>
+            <input id="lname" class="text-input" name="last_name" type="text" required>
             
             <label for="email">Email Address</label>
-            <input type="email" name="email_address" id="email" required>
+            <input id="email" class="text-input" name="email_address" type="email" required>
             
             <label for="road">Road</label>
             <input id="road" name="running_preference" value="road" type="radio" required>
-            
+
             <label for="trail">Trail</label>
-            <input id="trail" name="running_preference" value="trail" type="radio">
-            
+            <input id="trail" name="running_preference" value="trail" type="radio" required>
+
             <label for="both">Both</label>
-            <input id="both" name="running_preference" value="both" type="radio">
+            <input id="both" name="running_preference" value="both" type="radio" required>
             
-            <input type="submit" value="Let's Run!">
-            
+            <input class="join-button" type="submit" value="Let's Run!">
         </form>
     </section>
     <footer>
