@@ -40,7 +40,7 @@ h1,h2 {
 
 #menu li {
     float: right;
-    list-style-type: none; /* list-style: none; errado */
+    list-style: none; /* list-style-type: none; correto  */
     margin-right: 30px;
 }
 
@@ -51,7 +51,7 @@ h1,h2 {
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
-    /* color: inherit; /* falta isso */
+    color: inherit; /* falta isso */
 }
 
 .active {
