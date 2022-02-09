@@ -48,11 +48,11 @@ h1,h2 {
     text-decoration: none;
     color: inherit;
 }
-/*
+
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
     color: inherit; 
-} */
+} 
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -83,7 +83,7 @@ h1,h2 {
 }
 
 /* creates the level of zoom for hero image */
-@keyframes hero-zoom {
+@keyframes hero-zoom { 
     from{
         transform: scale(1);
     }
