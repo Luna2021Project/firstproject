@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Lato, sans-serif; /*errado Lara*/
+    font-family: Lara, sans-serif; /*errado Lara*/
     font-weight: 300;
     /*color: #3a3a3a; /*faltou*/ 
 }
@@ -40,7 +40,7 @@ h1,h2 {
 
 #menu li {
     float: right;
-    list-style-type: none; /* list-style-type: none; correto  */
+    list-style: none; /* list-style-type: none; correto  */
     margin-right: 30px;
 }
 
@@ -51,7 +51,7 @@ h1,h2 {
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
-    color: inherit; /* falta isso */
+    /*color: inherit; /* falta isso */
 }
 
 .active {
